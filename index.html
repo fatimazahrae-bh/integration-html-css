@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div class="navbar">
         <div class="container">
-            <a href="#">Remember<span>That</span></a>
+            <a class="logo" href="#">Remember<span>That</span></a>
 
                  <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="open Navigation"> 
         
             
             <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close Navigation">
                 <ul class="primary-nav">
                     <li class="current"><a href="#">Home</a></li>
                     <li><a href="#">Features</a></li>
@@ -50,7 +51,7 @@
 
     <section class="features-section">
         <div class="container">
-            <ul>
+            <ul class="features-list">
                 <li>Unlimited Tasks</li>
                 <li>SMS Task Reminders</li>
                 <li>Confetti Eplosions upon Task Completions</li>
@@ -97,7 +98,7 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     
-                    <input type="submit" class="send-message-cta" value="send message">
+                     <input type="submit" class="send-message-cta" value="send message">
                 </form>
             </div>
             <div class="contact-right">
